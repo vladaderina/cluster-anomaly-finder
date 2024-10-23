@@ -12,15 +12,15 @@ theme:
   name: material
 
 nav:
-    - Описание: about.md
-    - Теория:
-      - Метрики: metrics.md
-      - Принципы HA кластера: ha.md
-      - Компоненты control plane: cp.md
-    - Тестовое окружение:
-        - Архитектура кластера: architecture.md 
-        - Автоматизированное развертывание VM: vm-deploy.md
-        - Автоматизированное развертывание K8s: k8s-deploy.md
+  - Описание: index.md
+  - Теория:
+    - Метрики: metrics.md
+    - Принципы HA кластера: ha.md
+    - Компоненты control plane: cp.md
+  - Тестовое окружение:
+      - Архитектура кластера: architecture.md 
+      - Автоматизированное развертывание VM: vm-deploy.md
+      - Автоматизированное развертывание K8s: k8s-deploy.md
 
 extra_css:
     - css/extra.css
