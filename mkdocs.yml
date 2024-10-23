@@ -1,0 +1,35 @@
+site_name: KubeAnomalyDocs
+
+site_url: https://vladaderina.github.io/KubeAnomalyDocs/
+
+site_description: Документация по проекту KubeAnomaly
+
+site_author: Vlada Derina
+
+repo_url: https://github.com/vladaderina/KubeAnomalyDocs/tree/main
+
+theme:
+  name: material
+
+nav:
+    - Описание: about.md
+    - Теория:
+      - Метрики: metrics.md
+      - Принципы HA кластера: ha.md
+      - Компоненты control plane: cp.md
+    - Тестовое окружение:
+        - Архитектура кластера: architecture.md 
+        - Автоматизированное развертывание VM: vm-deploy.md
+        - Автоматизированное развертывание K8s: k8s-deploy.md
+
+extra_css:
+    - css/extra.css
+
+markdown_extensions:
+    - toc:
+        permalink: true
+    - admonition
+    - attr_list
+    - def_list
+
+copyright: Copyright &copy; 2024 <a href="https://t.me/vladaderina">Vlada Derina</a>.
